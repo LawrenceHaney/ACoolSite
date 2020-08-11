@@ -3,6 +3,7 @@
 } */
 body{
   background-color: rgb(246, 247, 253);
+  height: 100vh;
 }
 
 header{
@@ -15,17 +16,18 @@ header{
 
 
 article{
-  margin: 0 5ch 0 10ch;
+  margin: 0 10ch 0 15%;
   align-self: center;
 }
 .container{
   display: inline-flex;
+  padding: 1em
 }
 .aside{
-  padding: 5em 4em;
+  padding: 5em 2%%;
   font-family: 'Open Sans', sans-serif;
   font-size: small;
-  display: flex;
+  flex-shrink: 3;
 }
 .site-title{
   color: aliceblue;
@@ -52,7 +54,7 @@ article{
 
 footer{
   background-color: rgb(28 69 135);
-  height: 15vh;
+  height: 10vh;
   border: .15em solid rgb(0, 0, 0);
   min-width: 100ch;
 }
