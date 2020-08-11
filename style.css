@@ -1,4 +1,9 @@
-
+* { 
+  outline: 1px solid red;
+}
+body{
+  background-color: rgb(246, 247, 253);
+}
 
 header{
   background-color: rgb(28 69 135);
@@ -11,15 +16,17 @@ main{
   display: flex;
 }
 article{
-  margin-left: 30ch;
+  margin: 0 5ch 0 10ch;
+  align-self: center;
 }
-
-aside{
-  display: flex;
-  margin-top: 5vh;
-  margin-right: 12ch;
+.container{
+  display: inline-flex;
+}
+.aside{
+  padding: 5em 4em;
   font-family: 'Open Sans', sans-serif;
   font-size: small;
+  display: flex;
 }
 .site-title{
   color: aliceblue;
@@ -41,8 +48,6 @@ aside{
 }
 
 .body{
-  margin-right: 20ch;
-  justify-content: space-evenly;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -50,7 +55,4 @@ footer{
   background-color: rgb(28 69 135);
   height: 15vh;
   border: .15em solid rgb(0, 0, 0);
-}
-.d-flex{
-  display: flex;
 }
