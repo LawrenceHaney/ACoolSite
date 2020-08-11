@@ -1,15 +1,17 @@
 /* * { 
   outline: 1px solid red;
 } */
-body{
+.body-container{
   background-color: rgb(246, 247, 253);
-  height: 100vh;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
 }
 
 header{
   background-color: rgb(28 69 135);
   margin: 0 0 2em 0;
-  padding: 1.2em 0 .11em 0;
+  padding: 5% 0 1% 0;
   border: .15em solid rgb(0, 0, 0);
   min-width: 100ch;
 }
@@ -18,21 +20,28 @@ header{
 article{
   margin: 0 10ch 0 15%;
   align-self: center;
+  flex-grow: 2;
+  flex-shrink: 1;
+  min-width: 60%;
 }
 .container{
-  display: inline-flex;
-  padding: 1em
+  display: flex;
+  min-width: 100ch;
+  padding: 1em;
+  padding-bottom: 10vh;
+  justify-content: space-evenly;
 }
 .aside{
-  padding: 5em 2%%;
+  padding: 5em 2%;
   font-family: 'Open Sans', sans-serif;
   font-size: small;
-  flex-shrink: 3;
+  flex-grow: 1;
+  flex-shrink: 4;
 }
 .site-title{
   color: aliceblue;
   text-align: center;
-  font-size: 32pt;
+  font-size: xx-large;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -57,4 +66,5 @@ footer{
   height: 10vh;
   border: .15em solid rgb(0, 0, 0);
   min-width: 100ch;
+  bottom: 0;
 }
