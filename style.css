@@ -21,7 +21,6 @@ article{
   margin: 0 10ch 0 15%;
   align-self: center;
   flex-grow: 2;
-  flex-shrink: 1;
   min-width: 60%;
 }
 .container{
@@ -36,12 +35,12 @@ article{
   font-family: 'Open Sans', sans-serif;
   font-size: small;
   flex-grow: 1;
-  flex-shrink: 4;
+  flex-shrink: 1;
 }
 .site-title{
   color: aliceblue;
   text-align: center;
-  font-size: xx-large;
+  font-size: 250%;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -67,4 +66,5 @@ footer{
   border: .15em solid rgb(0, 0, 0);
   min-width: 100ch;
   bottom: 0;
+  position: sticky;
 }
