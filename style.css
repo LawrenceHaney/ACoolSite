@@ -1,8 +1,9 @@
+
 header{
   background-color: navy;
   margin: 0 0 2em 0;
   padding: 1.2em 0 .11em 0;
-  border: black .5em;
+  border: .15em solid rgb(0, 0, 0);
 }
 
 main{
@@ -14,7 +15,8 @@ article{
 
 aside{
   display: flex;
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-right: 5ch;
 }
 .site-title{
   color: aliceblue;
@@ -24,14 +26,15 @@ aside{
 }
 
 .title{
-  border-top: cornflowerblue 30em;
+  border-top: 1em solid rgb(160, 184, 229);
 }
 .body{
-  margin-right: 10ch;
+  margin-right: 20ch;
+  justify-content: space-evenly;
 }
 
 footer{
   background-color: navy;
   height: 15vh;
-  border: black .5em;
+  border: .15em solid rgb(0, 0, 0);
 }
