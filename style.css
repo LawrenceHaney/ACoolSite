@@ -32,6 +32,12 @@ aside{
   font-size: x-large;
   text-align: center;
 }
+
+.aside-title{
+  margin: .5em 0 0 0;
+  text-align: left;
+}
+
 .body{
   margin-right: 20ch;
   justify-content: space-evenly;
