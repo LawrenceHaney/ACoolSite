@@ -10,11 +10,10 @@ header{
   margin: 0 0 2em 0;
   padding: 1.2em 0 .11em 0;
   border: .15em solid rgb(0, 0, 0);
+  min-width: 100ch;
 }
 
-main{
-  display: flex;
-}
+
 article{
   margin: 0 5ch 0 10ch;
   align-self: center;
@@ -55,4 +54,5 @@ footer{
   background-color: rgb(28 69 135);
   height: 15vh;
   border: .15em solid rgb(0, 0, 0);
+  min-width: 100ch;
 }
