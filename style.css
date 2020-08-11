@@ -19,6 +19,7 @@ aside{
   margin-top: 5vh;
   margin-right: 12ch;
   font-family: 'Open Sans', sans-serif;
+  font-size: small;
 }
 .site-title{
   color: aliceblue;
@@ -36,6 +37,7 @@ aside{
 .aside-title{
   margin: .5em 0 0 0;
   text-align: left;
+  font-size: large;
 }
 
 .body{
