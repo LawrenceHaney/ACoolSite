@@ -1,6 +1,7 @@
 
+
 header{
-  background-color: navy;
+  background-color: rgb(28 69 135);
   margin: 0 0 2em 0;
   padding: 1.2em 0 .11em 0;
   border: .15em solid rgb(0, 0, 0);
@@ -10,31 +11,38 @@ main{
   display: flex;
 }
 article{
-  margin-left: 20ch;
+  margin-left: 30ch;
 }
 
 aside{
   display: flex;
   margin-top: 5vh;
-  margin-right: 5ch;
+  margin-right: 12ch;
+  font-family: 'Open Sans', sans-serif;
 }
 .site-title{
   color: aliceblue;
   text-align: center;
   font-size: 32pt;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.title{
+.body-title{
   border-top: 1em solid rgb(160, 184, 229);
+  font-size: x-large;
+  text-align: center;
 }
 .body{
   margin-right: 20ch;
   justify-content: space-evenly;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer{
-  background-color: navy;
+  background-color: rgb(28 69 135);
   height: 15vh;
   border: .15em solid rgb(0, 0, 0);
+}
+.d-flex{
+  display: flex;
 }
