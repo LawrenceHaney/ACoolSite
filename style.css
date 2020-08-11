@@ -1,6 +1,37 @@
-header{}
+header{
+  background-color: navy;
+  margin: 0 0 2em 0;
+  padding: 1.2em 0 .11em 0;
+  border: black .5em;
+}
 
-footer{}
+main{
+  display: flex;
+}
+article{
+  margin-left: 20ch;
+}
 
-article{}
+aside{
+  display: flex;
+  margin-top: 10vh;
+}
+.site-title{
+  color: aliceblue;
+  text-align: center;
+  font-size: 32pt;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.title{
+  border-top: cornflowerblue 30em;
+}
+.body{
+  margin-right: 10ch;
+}
+
+footer{
+  background-color: navy;
+  height: 15vh;
+  border: black .5em;
+}
